@@ -3,7 +3,7 @@ root=Tk()
 
 root.geometry("644x644")
 root.title("CALCULATOR")
-#root.configure(background="black")
+
 
 def func(event):
     global value
@@ -29,7 +29,7 @@ def func(event):
 
 value=StringVar()
 value.set("")
-#importan(Dont forget it)
+
 Screen=Entry(root,textvariable=value,borderwidth=20,font=("lucida",20,"bold"),bg="white")
 Screen.pack(fill=X,padx=12,pady=20)
 
